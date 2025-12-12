@@ -1,0 +1,145 @@
+================================================================================
+RAINDROP DETECTION MODEL - CORRECTED EVALUATION REPORT
+================================================================================
+
+Model: C:\Users\peter\Desktop\Courses\Machine Learning\project\checkpoints_stable\epoch-025.keras
+Total Epochs Trained: 25
+Best Validation Dice: 0.9312 (Epoch 24)
+Final Training Dice: 0.9416
+Final Validation Dice: 0.9278
+Final Validation Accuracy: 0.9855 (98.55%)
+
+================================================================================
+RAINDROP DETECTION PERFORMANCE (Folders WITH Droplets)
+================================================================================
+
+Folder: D1
+  Dice Coefficient:  0.7946 (79.46%)
+  IoU (Jaccard):     0.6592 (65.92%)
+  Pixel Accuracy:    0.9896 (98.96%)
+  Precision:         0.6593
+  Recall:            0.9999
+  F1 Score:          0.7946
+  True Positives:    15,899 pixels
+  False Positives:   8,217 pixels
+  False Negatives:   1 pixels
+  True Negatives:    762,315 pixels
+
+Folder: D2
+  Dice Coefficient:  0.7076 (70.76%)
+  IoU (Jaccard):     0.5475 (54.75%)
+  Pixel Accuracy:    0.9533 (95.33%)
+  Precision:         0.7686
+  Recall:            0.6556
+  F1 Score:          0.7076
+  True Positives:    44,478 pixels
+  False Positives:   13,394 pixels
+  False Negatives:   23,362 pixels
+  True Negatives:    705,198 pixels
+
+Folder: D3_0
+  Dice Coefficient:  0.9472 (94.72%)
+  IoU (Jaccard):     0.8998 (89.98%)
+  Pixel Accuracy:    0.9808 (98.08%)
+  Precision:         0.9052
+  Recall:            0.9933
+  F1 Score:          0.9472
+  True Positives:    135,743 pixels
+  False Positives:   14,211 pixels
+  False Negatives:   913 pixels
+  True Negatives:    635,565 pixels
+
+Folder: D3_2
+  Dice Coefficient:  0.9489 (94.89%)
+  IoU (Jaccard):     0.9027 (90.27%)
+  Pixel Accuracy:    0.9945 (99.45%)
+  Precision:         0.9238
+  Recall:            0.9753
+  F1 Score:          0.9489
+  True Positives:    39,999 pixels
+  False Positives:   3,297 pixels
+  False Negatives:   1,012 pixels
+  True Negatives:    742,124 pixels
+
+Folder: D4_0
+  Dice Coefficient:  0.9742 (97.42%)
+  IoU (Jaccard):     0.9497 (94.97%)
+  Pixel Accuracy:    0.9938 (99.38%)
+  Precision:         0.9553
+  Recall:            0.9939
+  F1 Score:          0.9742
+  True Positives:    91,449 pixels
+  False Positives:   4,281 pixels
+  False Negatives:   565 pixels
+  True Negatives:    690,137 pixels
+
+Folder: v2
+  Dice Coefficient:  0.9182 (91.82%)
+  IoU (Jaccard):     0.8487 (84.87%)
+  Pixel Accuracy:    0.9442 (94.42%)
+  Precision:         0.8628
+  Recall:            0.9811
+  F1 Score:          0.9182
+  True Positives:    246,314 pixels
+  False Positives:   39,153 pixels
+  False Negatives:   4,745 pixels
+  True Negatives:    496,220 pixels
+
+================================================================================
+FALSE POSITIVE ANALYSIS (Folders WITHOUT Droplets)
+================================================================================
+
+Folder: 1o
+  Specificity:           0.999997 (99.9997%)
+  False Positive Rate:   0.000003 (0.0003%)
+  False Positives:       2 pixels
+  True Negatives:        786,430 pixels
+  Total Pixels:          786,432 pixels
+
+Folder: 2o
+  Specificity:           1.000000 (100.0000%)
+  False Positive Rate:   0.000000 (0.0000%)
+  False Positives:       0 pixels
+  True Negatives:        786,432 pixels
+  Total Pixels:          786,432 pixels
+
+Folder: 8o
+  Specificity:           1.000000 (100.0000%)
+  False Positive Rate:   0.000000 (0.0000%)
+  False Positives:       0 pixels
+  True Negatives:        786,432 pixels
+  Total Pixels:          786,432 pixels
+
+Folder: D3_1
+  Specificity:           1.000000 (100.0000%)
+  False Positive Rate:   0.000000 (0.0000%)
+  False Positives:       0 pixels
+  True Negatives:        786,432 pixels
+  Total Pixels:          786,432 pixels
+
+Folder: D4_1
+  Specificity:           0.999858 (99.9858%)
+  False Positive Rate:   0.000142 (0.0142%)
+  False Positives:       112 pixels
+  True Negatives:        786,320 pixels
+  Total Pixels:          786,432 pixels
+
+================================================================================
+AGGREGATE STATISTICS
+================================================================================
+
+RAINDROP DETECTION (Folders with droplets):
+  Average Dice Coefficient: 0.8818 (88.18%)
+  Average IoU:              0.8013 (80.13%)
+  Average F1 Score:         0.8818 (88.18%)
+  Average Precision:        0.8458 (84.58%)
+  Average Recall:           0.9332 (93.32%)
+  Std Dev Dice:             0.0971
+  Min Dice:                 0.7076
+  Max Dice:                 0.9742
+
+FALSE POSITIVE CONTROL (Folders without droplets):
+  Average Specificity:      0.999971 (99.9971%)
+  Average FP Rate:          0.000029 (0.0029%)
+  Total False Positives:    114 pixels
+  Total Pixels Analyzed:    3,932,160 pixels
